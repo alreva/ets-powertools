@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETS Power Tools</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      font-size: 1.5em;
+      color: #333;
+    }
+
+    p {
+      font-size: 1em;
+      color: #666;
+    }
+
+    .feature-list {
+      margin-top: 20px;
+    }
+
+    .feature-list h2 {
+      font-size: 1.2em;
+      color: #444;
+    }
+
+    .feature-list ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .feature-list li {
+      background: #fff;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>ETS Power Tools</h1>
+  <p>Enhance your ETS platform experience with advanced data organization and visualization features.</p>
+
+  <div class="feature-list">
+    <h2>Features:</h2>
+    <ul>
+      <li><strong>Data Grouping:</strong> Groups table rows by date, parsing and processing the data within each row.
+        Calculates totals for specific metrics such as STD (Standard Time) and OVR (Overtime).</li>
+      <li><strong>Status Marking:</strong> Highlights rows with total STD hours of 8 or more, indicating completed
+        workdays. Marks rows with incomplete hours, showing the total logged hours out of the required 8.</li>
+      <li><strong>Visual Enhancements:</strong> Adds custom classes to rows to visually differentiate date headers and
+        status indicators. Displays total hours directly within the table for quick reference.</li>
+    </ul>
+  </div>
+
+  <p><strong>Usage:</strong> Once installed, ETS Power Tools will automatically activate when you visit a supported ETS
+    platform. The extension runs a content script that processes the table data, groups rows by date, calculates totals,
+    and marks rows based on completion status. Users can easily identify which days have incomplete hours and which have
+    been fully logged.</p>
+
+  <p><strong>Getting Started:</strong></p>
+  <ol>
+    <li>Install the ETS Power Tools extension from the Chrome Web Store.</li>
+    <li>Navigate to your ETS platform and let the extension automatically process the table data.</li>
+    <li>Review the enhanced table to quickly understand your work logs and statuses.</li>
+  </ol>
+</body>
+
+</html>
