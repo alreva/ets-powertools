@@ -44,7 +44,7 @@ ETS Power Tools aims to streamline the workflow for ETS platform users by provid
 - An icon for the extension should appear in the Chrome toolbar.
 
 ### Step 6: Using the Extension
-- The extension will automatically activate when you visit the URL: `https://ets.sigma.software/timereports.ets`.
+- The extension will automatically activate when you visit the ETS time reports page.
 - No further action is needed; the extension will process the table data and enhance your experience on the ETS platform.
 
 ## Example Directory Structure
